@@ -1,0 +1,9 @@
+Server:
+  port: 8000
+
+greet: Welcome to Gateway Service
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8080/eureka/

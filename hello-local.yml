@@ -1,0 +1,9 @@
+Server:
+  port: 8001
+
+greet: Welcome to Hello Service
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8080/eureka/
