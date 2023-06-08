@@ -2,7 +2,7 @@ Server:
   port: 8002
 
 greet: Welcome to Greet service
-env_val: ${OPENSHIFT_DIY_PORT}
+env_val: ${ENV_VAL}
 
 eureka:
   client:
